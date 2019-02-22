@@ -1,0 +1,15 @@
+table {
+    background:    #0c343d;
+    background:    -webkit-linear-gradient(#00ffff, #0c343d 50%, #00ffff);
+    background:    linear-gradient(#00ffff, #0c343d 50%, #00ffff);
+    border:        5px solid #cccccc;
+    border-radius: 10px;
+    padding:       10px 30px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 400 50px/1 "Pacifico", cursive;
+    text-align:    center;
+    text-shadow:   2px 2px #000000;
+    margin: 100px;
+    margin-top: 175px;
+}

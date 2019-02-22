@@ -1,0 +1,68 @@
+.bvn {
+	text-align: center;
+	color: orange;
+	font-family: monospace;
+	font-size: 75px;
+	background-color: magenta;
+	background:    -webkit-linear-gradient(#ff00ff, #4c1130 50%, #ff00ff);
+    background:    linear-gradient(#ff00ff, #4c1130 50%, #ff00ff);
+    border:        5px solid #999999;
+    border-radius: 10px;
+}
+
+.pres {
+	text-align: center;
+	color: grey;
+	font-family: monospace;
+	font-size: 50px;
+	background-color: purple;
+	background:    -webkit-linear-gradient(#9900ff, #20124d 50%, #9900ff);
+    background:    linear-gradient(#9900ff, #20124d 50%, #9900ff);
+    border:        5px solid #999999;
+    border-radius: 10px;
+}
+
+.hdc {
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+	font-family: monospace;
+	font-size: 50px;
+	background-color: purple;
+	background:    -webkit-linear-gradient(#9900ff, #20124d 50%, #9900ff);
+    background:    linear-gradient(#9900ff, #20124d 50%, #9900ff);
+}
+
+.boutongh {
+	background:    #20124d;
+	background:    -webkit-linear-gradient(#9900ff, #20124d 50%, #9900ff);
+    background:    linear-gradient(#9900ff, #20124d 50%, #9900ff);
+	border:        5px solid #999999;
+	border-radius: 10px;
+	padding:       10px 40px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal 400 20px/1 "Pacifico", cursive;
+	text-align:    center;
+	text-shadow:   4px 4px #000000;
+}
+
+.boutonhh {
+	background:    #660000;
+	background:    -webkit-linear-gradient(#ff0000, #660000 50%, #ff0000);
+    background:    linear-gradient(#ff0000, #660000 50%, #ff0000);
+	border:        5px solid #999999;
+	border-radius: 10px;
+	padding:       10px 40px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal 400 20px/1 "Pacifico", cursive;
+	text-align:    center;
+	text-shadow:   4px 4px #000000;
+}
+
+.center {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

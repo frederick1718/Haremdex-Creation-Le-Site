@@ -1,0 +1,390 @@
+body {
+	background-image: url("../../Autres/bg_harem.png");
+	background-color: #20124d;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100px
+}
+
+.info {
+	background-image: url("../../Autres/bg_info.png");
+	background-color: grey;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100px;
+	border: 3px solid white;
+	border-radius: 15px;
+	position: fixed;
+}
+
+.infoperso {
+	background-image: url("../../Autres/bg_info.png");
+	background-color: grey;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100px;
+	border: 3px solid white;
+	border-radius: 15px;
+	position: fixed;
+	margin-left: 165px;
+}
+
+.infoderiv {
+	background-image: url("../../Autres/bg_deriv.png");
+	background-color: grey;
+	background-position: center;
+	background-size: 500px;
+	border: 3px solid white;
+	border-radius: 15px;
+	position: fixed;
+	width: 150px;
+	height: 605px;
+	background-repeat: no-repeat;
+}
+
+.aff {
+	background-image: url("../../Autres/bg_stars.png");
+	background-color: grey;
+	background-position: center;
+	background-size: 400px;
+	border: 3px solid white;
+	border-radius: 15px;
+	position: fixed;
+	background-repeat: no-repeat;
+	margin-top: 560px;
+	margin-left: 165px;
+}
+
+.affstars {
+	display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(https://hh.hh-content.com/design_v2/affstar.png) center no-repeat;
+    background-size: contain;
+    background-position: center;
+	text-align: center;
+	margin-top: 6px;
+	margin-right: 14px;
+	margin-left: 14px; 
+	margin-bottom: 6px;
+}
+
+.pres {
+	text-align: center;
+	color: white;
+	font-family: monospace;
+	font-size: 30px;
+	background:    -webkit-linear-gradient(#00ffff, #0c343d 50%, #00ffff);
+    background:    linear-gradient(#00ffff, #0c343d 50%, #00ffff);
+	border:        3px solid white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.iconom {
+	width: 25px;
+}
+
+.ava {
+	width: 175px;
+}
+
+.avaperso {
+	width: 220px;
+}
+
+.tstars {
+	color: white
+}
+
+.liste {
+	float: left;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-right: 5px;
+}
+
+.icoc {
+	background-color: #8d8e9f;
+	border: 3px solid white;
+	border-radius: 25px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+
+.icor {
+	background-color: #23b56b;
+	border: 3px solid white;
+	border-radius: 25px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+
+.icoe {
+	background-color: #ffb244;
+	border: 3px solid white;
+	border-radius: 25px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+
+.icol {
+	background-image: url(https://hh.hh-content.com/legendary.png);
+    background-size: contain;
+	border: 3px solid white;
+	border-radius: 25px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+
+.icop {
+	background-color: #2E98FB;
+	border: 3px solid white;
+	border-radius: 25px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	width: 85px;
+}
+
+.namecommun {
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	background-color: #8d8e9f;
+	border:        5px solid white;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
+
+.namerare {
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	background-color: #23b56b;
+	border:        5px solid white;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
+
+.nameepique {
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	background-color: #ffb244;
+	border:        5px solid white;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
+
+.namelegendaire {
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	background-image: url(https://hh.hh-content.com/legendary.png);
+	border:        5px solid white;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
+
+.starshardcore {
+	font-size: 20px;
+	text-align: center;
+	background:    -webkit-linear-gradient(#9900ff, #20124d 50%, #9900ff);
+	border:        3px solid white;
+	border-radius: 25px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 5px;
+}
+
+.starscharme {
+	font-size: 20px;
+	text-align: center;
+	background:    -webkit-linear-gradient(#ff0000, #660000 50%, #ff0000);
+	border:        3px solid white;
+	border-radius: 50px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 5px;
+}
+
+.starssavoir-faire {
+	font-size: 20px;
+	text-align: center;
+	background:    -webkit-linear-gradient(#0000ff, #073763 50%, #0000ff);
+	border:        3px solid white;
+	border-radius: 50px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 5px;
+}
+
+.stars {
+	background: url(https://hh.hh-content.com/design_v2/affstar_S.png) center no-repeat;
+	background-size: 45px;
+	width: 50px;
+	border-radius: 75px;
+}
+
+.defil {
+	width: 975px;
+	height: 560px;
+	overflow: auto;
+	border: 3px solid white;
+	position: absolute;
+	left: 380px;
+	background-attachment: fixed;
+}
+
+button {
+	outline: 0;
+	margin-top: 3px;
+	margin-right: 1.5px;
+	margin-left: 1.5px;
+	margin-bottom: 3px;
+}
+
+.ico {
+	width: 85px;
+	border-radius: 10px;
+}
+
+.icoderv {
+	width: 100px;
+	border-radius: 10px;
+}
+
+.ico_div {
+	position: relative;
+}
+
+.spe {
+	width: 35px;
+}
+
+.spe_div {
+	position: absolute;
+	top: -10px;
+	right: -25px;
+}
+
+.patreon {
+	color: gold;
+}
+
+.descriptionident {
+	background-image: url("../../Autres/bg_ident.png");
+	background-color: grey;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 800px;
+	border: 3px solid white;
+	border-radius: 15px;
+	position: fixed;
+	margin-left: 535px;
+}
+
+.description {
+	background-image: url("../../Autres/bg_histoire.png");
+	background-color: grey;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 800px;
+	border: 3px solid white;
+	border-radius: 15px;
+	position: fixed;
+	margin-left: 940px;
+}
+
+.descriptionpers {
+	background-image: url("../../Autres/bg_bio.png");
+	background-color: grey;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 805px;
+	border: 3px solid white;
+	border-radius: 15px;
+	position: fixed;
+	margin-left: 535px;
+	margin-top: 370px;
+}
+
+.desc {
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	border:        3px solid white;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
+
+.desc2 {
+	color: black;
+	font-family: fantasy;
+	font-size: 17px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
+
+.desc2Beta {
+	color: white;
+	font-family: fantasy;
+	font-size: 17px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
+
+.descbio {
+	color: white;
+	font-family: monospace;
+	font-size: 17px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
+
+.derivees {
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	border:        3px solid white;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-bottom: 2px;
+}
