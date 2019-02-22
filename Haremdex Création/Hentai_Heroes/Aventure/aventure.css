@@ -1,0 +1,20 @@
+body {
+	background-image: url("../../Autres/bg_harem.png");
+	background-color: #660000;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100px
+}
+
+.bvn {
+	text-align: center;
+	color: white;
+	font-family: monospace;
+	font-size: 40px;
+	background:    -webkit-linear-gradient(#00ffff, #0c343d 50%, #00ffff);
+    background:    linear-gradient(#00ffff, #0c343d 50%, #00ffff);
+	border:        5px solid #999999;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
