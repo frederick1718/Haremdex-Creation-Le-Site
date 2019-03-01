@@ -109,30 +109,30 @@ body {
 	background-color: #8d8e9f;
 	border: 3px solid white;
 	border-radius: 25px;
-	margin-top: 3px;
-	margin-right: 3px;
-	margin-left: 3px;
-	margin-bottom: 3px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
 }
 
 .icor {
 	background-color: #23b56b;
 	border: 3px solid white;
 	border-radius: 25px;
-	margin-top: 3px;
-	margin-right: 3px;
-	margin-left: 3px;
-	margin-bottom: 3px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
 }
 
 .icoe {
 	background-color: #ffb244;
 	border: 3px solid white;
 	border-radius: 25px;
-	margin-top: 3px;
-	margin-right: 3px;
-	margin-left: 3px;
-	margin-bottom: 3px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
 }
 
 .icol {
@@ -140,21 +140,20 @@ body {
     background-size: contain;
 	border: 3px solid white;
 	border-radius: 25px;
-	margin-top: 3px;
-	margin-right: 3px;
-	margin-left: 3px;
-	margin-bottom: 3px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
 }
 
 .icop {
 	background-color: #2E98FB;
 	border: 3px solid white;
 	border-radius: 25px;
-	margin-top: 3px;
-	margin-right: 3px;
-	margin-left: 3px;
-	margin-bottom: 3px;
-	width: 85px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
 }
 
 .namecommun {
@@ -250,13 +249,14 @@ body {
 }
 
 .defil {
-	width: 975px;
-	height: 560px;
+	width: 970px;
+	height: 510px;
 	overflow: auto;
 	border: 3px solid white;
 	position: absolute;
 	left: 380px;
 	background-attachment: fixed;
+	margin-top: 50px;
 }
 
 button {
@@ -270,6 +270,7 @@ button {
 .ico {
 	width: 85px;
 	border-radius: 10px;
+	margin-top: 0px;
 }
 
 .icoderv {
@@ -289,6 +290,11 @@ button {
 	position: absolute;
 	top: -10px;
 	right: -25px;
+}
+
+.textico {
+	position: absolute;
+	font-size: 0px;
 }
 
 .patreon {

@@ -7,11 +7,12 @@
 
 	<link href="../../Icônes/4607416_Nemo_GH.png" rel="icon" type="image/png">
 	<link rel="stylesheet" type="text/css" href="harem.css">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="Harem.js"></script>
 
+  </style>
 </head>
      	 
-	<script type="text/javascript" src="Harem.js"></script>
+	
 <body>
 
 
@@ -21,77 +22,119 @@
 
     <a id="image" style="float: left; text-align: center;"></a>
 
-    <div class="defil">
-        <p class="liste">
+    
+        <div style="float: left; margin-left: 370px; width: 980px;">
+            <p class="pres" style="margin-top: 1px;">
+                Noms :<input type="text" name="category" id="categoryFilter" placeholder="Chercher un nom">
+                Raretés :<select name="rarete" onchange="javascript:doSomething()" id="raretyFilter">
+                    <option value="00">Toutes les Raretés</option>
+                    <option value="01">Commun</option>
+                    <option value="02">Rare</option>
+                    <option value="03">Epique</option>
+                    <option value="04">Légendaire</option>
+                    <option value="05">Spécial/Patreon</option>
+                </select>
+                Spécialités :<select name="spécialité" id="specialityFilter">
+                    <option value="00">Toutes les Spécialités</option>
+                    <option value="01">Hardcore</option>
+                    <option value="02">Charme</option>
+                    <option value="03">Savoir-faire</option>
+                </select>
+            </p>
+        </div>
+            <ul class="filter side-nav" id="filter">
+            <ul class="filter rarete" id="filterrar">
+            <ul class="filter specialite" id="filterspe">
 
-            <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '1', 'Bunny', '0', 'hardcore', 'commun');" />
-            	<div class="ico_div">
-                	<img class="ico" src="Filles/1/ico0.png">
+   <div class="defil">
+        <div class="liste">
+
+       <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '1', 'Bunny', '0', 'hardcore', 'commun');" />
+            <a><span class="textico">Bunny</span></a>
+            <li class="textico" data-rarety="01">Commun</li>
+            <a><span class="textico" id="hc">Hardcore</span></a>
+            <div class="ico_div">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/1/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
-            	</div>
-        	</button>
+            </div>
+        </button>
 
         <button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '3', 'Skytte', '0', 'savoir-faire', 'epique');" />
+            <a><span class="textico">Skytte</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/3/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/3/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '4', 'Juliette', '0', 'charme', 'commun');" />
+            <a><span class="textico">Juliette</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/4/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/4/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '5', 'Princesse Agate', '0', 'savoir-faire', 'commun');" />
+            <a><span class="textico">Princesse Agate</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/5/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/5/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '6', 'Fée', '0', 'hardcore', 'commun');" />
+            <a><span class="textico">Fée</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/6/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/6/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
             </div>
         </button>
+        
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '7', 'Red Battler', '0', 'savoir-faire', 'commun');" />
+            <a><span class="textico">Red Battler</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/7/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/7/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
+        
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '8', 'Sheheramazond', '0', 'hardcore', 'commun');" />
+            <a><span class="textico">Sheheramazond</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/8/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/8/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
             </div>
         </button>
+        
         <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '9', 'Kimie', '0', 'charme', 'commun');" />
+            <a><span class="textico">Kimie</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/9/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/9/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+        
         <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '10', 'Arcana', '0', 'hardcore', 'commun');" />
+            <a><span class="textico">Arcana</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/10/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/10/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
@@ -99,203 +142,253 @@
         </button>
 
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '11', 'Jennie', '0', 'charme', 'commun');" />
+            <a><span class="textico">Jennie</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/11/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/11/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '12', 'Rumiko', '0', 'savoir-faire', 'commun');" />
+            <a><span class="textico">Rumiko</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/12/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/12/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '13', 'Sung Tai ki', '0', 'charme', 'commun');" />
+            <a><span class="textico">Sung Tai ki</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/13/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/13/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '14', 'Solveig', '0', 'savoir-faire', 'commun');" />
+            <a><span class="textico">Solveig</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/14/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/14/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
-		<button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '15', 'Ankyo', '0', 'hardcore', 'commun');" />
+        
+        <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '15', 'Ankyo', '0', 'hardcore', 'commun');" />
+            <a><span class="textico">Ankyo</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/15/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/15/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
             </div>
         </button>
+        
         <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '16', 'Miss Spook', '0', 'savoir-faire', 'commun');" />
+            <a><span class="textico">Miss Spook</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/16/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/16/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
+        
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '17', 'Princesse Noemy', '0', 'charme', 'commun');" />
+            <a><span class="textico">Princesse Noemy</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/17/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/17/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+        
         <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '18', 'Service Palace', '0', 'savoir-faire', 'commun');" />
+            <a><span class="textico">Service Palace</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/18/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/18/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '19', 'Régine', '0', 'hardcore', 'commun');" />
+            <a><span class="textico">Régine</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/19/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/19/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '20', 'Princesse Tiana', '0', 'hardcore', 'epique');" />
+            <a><span class="textico">Princesse Tiana</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/20/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/20/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
             </div>
         </button>
 
-		<button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '21', 'Noemy sportive', '0', 'charme', 'epique');" />
+        <button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '21', 'Noemy sportive', '0', 'charme', 'epique');" />
+            <a><span class="textico">Noemy sportive</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/21/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/21/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '22', 'Kimie Halloween', '0', 'charme', 'epique');" />
+            <a><span class="textico">Kimie Halloween</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/22/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/22/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '23', 'Service Halloween', '0', 'savoir-faire', 'epique');" />
+            <a><span class="textico">Service Halloween</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/23/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/23/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icor" onclick="javascript:viewImage3('image', '24', 'Juliette Halloween', '0', 'charme', 'rare');" />
+            <a><span class="textico">Juliette Halloween</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/24/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/24/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '25', 'Hikea', '0', 'savoir-faire', 'epique');" />
+            <a><span class="textico">Hikea</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/25/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/25/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '26', 'Jeanne', '0', 'hardcore', 'commun');" />
+            <a><span class="textico">Jeanne</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/26/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/26/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
             </div>
         </button>
-        <button id="bouton" class="icoc" onclick="javascript:viewImage5('image', '27', 'Abraël', '0', 'charme', 'commun');" />
-            <div class="ico_div">
-                <img class="ico" src="Filles/27/ico0.png">
-                    <div class="spe_div">
-                        <img class="spe" src="../../Autres/carac/charme.png">
-                    </div> 
-            </div>
-        </button>
-        <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '28', 'Eugénie', '0', 'charme', 'commun');" />
-            <div class="ico_div">
-                <img class="ico" src="Filles/28/ico0.png">
-                    <div class="spe_div">
-                        <img class="spe" src="../../Autres/carac/charme.png">
-                    </div> 
-            </div>
-        </button>
-        <button id="bouton" class="icoc" onclick="javascript:viewImage3('image', '29', 'Bonny', '0', 'hardcore', 'commun');" />
-            <div class="ico_div">
-                <img class="ico" src="Filles/29/ico0.png">
-                    <div class="spe_div">
-                        <img class="spe" src="../../Autres/carac/hardcore.png">
-                    </div> 
-            </div>
-        </button>
-        <button id="bouton" class="icor" onclick="javascript:viewImage3('image', '30', 'Clarisse', '0', 'savoir-faire', 'rare');" />
-            <div class="ico_div">
-                <img class="ico" src="Filles/30/ico0.png">
-                    <div class="spe_div">
-                        <img class="spe" src="../../Autres/carac/savoir-faire.png">
-                    </div> 
-            </div>
-        </button>
-
-
 
         <button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '150', 'Impératrice Tsubame', '0', 'charme', 'epique');" />
+            <a><span class="textico">Impératrice Tsubame</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/150/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/150/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/charme.png">
                     </div> 
             </div>
         </button>
+
+        <button id="bouton" class="icol" onclick="javascript:viewImage3('image', '1866692', 'Fukai', '0', 'charme', 'legendaire');" />
+            <a><span class="textico">Fukai</span></a>
+            <div class="ico_div">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/1866692/ico0.png">
+                    <div class="spe_div">
+                        <img class="spe" src="../../Autres/carac/charme.png">
+                    </div> 
+            </div>
+        </button>
+
         <button id="bouton" class="icol" onclick="javascript:viewImage5('image', '5508911', 'Levitya', '0', 'hardcore', 'legendaire');" />
+            <a><span class="textico">Levitya</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/5508911/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/5508911/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icol" onclick="javascript:viewImage3('image', '6747339', 'Cora', '0', 'hardcore', 'legendaire');" />
+            <a><span class="textico">Cora</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/6747339/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/6747339/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/hardcore.png">
                     </div> 
             </div>
         </button>
+
         <button id="bouton" class="icol" onclick="javascript:viewImage5('image', '592213971', 'Fabienne', '0', 'savoir-faire', 'legendaire');" />
+            <a><span class="textico">Fabienne</span></a>
             <div class="ico_div">
-                <img class="ico" src="Filles/592213971/ico0.png">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/592213971/ico0.png">
                     <div class="spe_div">
                         <img class="spe" src="../../Autres/carac/savoir-faire.png">
                     </div> 
             </div>
         </button>
-    </p>
+
+        <button id="bouton" class="icol" onclick="javascript:viewImage3('image', '113889929', 'Atsuki', '0', 'charme', 'legendaire');" />
+            <a><span class="textico">Atsuki</span></a>
+            <div class="ico_div">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/113889929/ico0.png">
+                    <div class="spe_div">
+                        <img class="spe" src="../../Autres/carac/charme.png">
+                    </div> 
+            </div>
+        </button>
+
+        <button id="bouton" class="icop" onclick="javascript:viewImage3('image', '249728476', 'Koro', '0', 'savoir-faire', 'legendaire');" />
+            <a><span class="textico">Koro</span></a>
+            <div class="ico_div">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/249728476/ico0.png">
+                    <div class="spe_div">
+                        <img class="spe" src="../../Autres/carac/savoir-faire.png">
+                    </div> 
+            </div>
+        </button>
+
+        <button id="bouton" class="icoe" onclick="javascript:viewImage3('image', '819478501', 'Sara Jay', '0', 'savoir-faire', 'epique');" />
+            <a><span class="textico">Sara Jay</span></a>
+            <div class="ico_div">
+                <img class="ico" src="https://hh.hh-content.com/pictures/girls/819478501/ico0.png">
+                    <div class="spe_div">
+                        <img class="spe" src="../../Autres/carac/savoir-faire.png">
+                    </div> 
+            </div>
+        </button>
+
+    </ul>
+    </div>
 </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
 
 </body>
 </html>
